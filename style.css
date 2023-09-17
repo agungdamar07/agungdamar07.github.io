@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0; left: 0; right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 8%;
+    padding-left: 8%;
+    z-index: 1000;
+    background-color: #ff0000;
+    border-bottom: 1px solid aqua;
+} 
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(0, 255, 26);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    transform: 0.5s;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid aqua;
+    background-color: transparent;
+}
+
+. {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    transform: rotateY(180deg);
+}
+
+. {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+.content a {
+    font-size: 20px;
+    background: aqua;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.content a:hover {
+    background: transparent;
+    border: 2px solid aqua;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #101010;
+}
+
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 450px;
+    right: 70px;
+    border-radius: 15px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid aqua;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.button {
+    background-color: aqua;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+} 
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+ 
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #f70505;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid aqua;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: aqua;
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.pra p a {
+    background-color: aqua;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+
+.pra p a:hover {
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.skill {
+    background: #191919;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.skill-bar p {
+    text-align: left;
+    border-radius: 10px;
+}
+
+.skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: white;
+}
+
+.html {
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+}
+
+.css {
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+}
+
+.Javascript {
+    width: 45%;
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: #f70505;
+    text-align: center;
+    border: solid 1px white;
+}
